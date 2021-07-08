@@ -1,0 +1,19 @@
+div{
+    width:1000px;
+    height:200px;
+    background:red;
+    }
+.one{
+	  width:1000px;
+    	  height:200px;
+          background:blue;
+         
+          
+      }
+.sub{margin-left:10px;
+     width:300px;
+     background:tomato;
+	border: 1px solid black;
+	float: left;
+}  
+   

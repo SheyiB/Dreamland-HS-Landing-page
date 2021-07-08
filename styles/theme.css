@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background: slategray;
+}
+header{
+    background: slategray;
+    color: skyblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 3;
+    border-bottom: 2px solid skyblue;
+
+}
+
+a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: skyblue;
+}
+
+.c{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+    justify-content: space-between;
+    height: 700px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.d,.e{
+    width: 79%;
+    height: 100%;
+    background: skyblue;
+}
+
+.d{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: black;
+}
+
+.e{
+    width: 20%;
+}
+
+
+.btn{
+    position: absolute;
+    background: slategray;
+    color: skyblue;
+    top: 550px;
+    left: 1000px;
+    border: none;
+    border-radius: 10%;
+    width: 100px;
+    height: 30px;
+    z-index: 0;
+}
+
+.f{
+    position: absolute;
+    top: 320px;
+    left: 1050px;
+    width: 200px;
+    height: 200px;
+    background: slategray;
+    border-radius: 100px;
+}
+
+
+.e .btn{
+    left: 1300px;
+}
+
+.g{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-left: 120px;
+    margin-top: 50px;
+}
+
+.h{
+    height: 370px;
+    width: 70%;
+    background: slategray;
+    color: skyblue;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+    border: 2px solid skyblue;
+    /* border: 5px solid skyblue; */
+
+}
+
+.i,.k{
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+video{
+    height: 250px;
+}
+.k{
+    padding-top: 40px;
+}
+.j{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding-left: 80px;
+    margin-bottom: 80px;
+}
+
+.l{
+    height: 300px;
+    width: 90%;
+    background: slategray;
+    color: skyblue;
+    text-align: center;
+    /* border: 5px solid skyblue; */
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+.m{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.n{
+    height: 200px;
+    width: 100%;
+    background: slategray;
+    color: skyblue;
+    text-align: center;
+
+}
+
+.b nav a i{
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+.o,.q{
+    margin-top: 5px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+nav a i{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.o i{
+    font-size: 60px;
+}
+
+#dtheme, #ltheme{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background: black;
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+    border: 2px solid skyblue;
+
+}
+
+#ltheme{
+    background: skyblue;
+    right: 60px;
+}
