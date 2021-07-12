@@ -18,8 +18,9 @@ header{
     height: 100px;
     position: fixed;
     top: 0px;
-    width: 100%;
+    width: max-content;
     z-index: 3;
+    width: 100%;
 }
 
 a{
@@ -193,4 +194,107 @@ nav a i{
 #ltheme{
     background: skyblue;
     right: 60px;
+}
+
+
+
+
+@media screen and (min-width: 1785px) {
+    .e{
+        display: none;
+    }
+
+    .img-btn{
+        display: none;
+    }
+
+    .d{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1246px) {
+    body{
+        
+        max-width: 100%;
+        
+    }
+    .c {
+        width: 100%;
+        height: 600px;
+        padding: none;
+        
+
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        width: 100%
+    }
+
+    .e{
+        display: none;
+    }
+
+    .img-btn{
+        display: none;
+    }
+
+    .d{
+        width: 100%;
+    }
+    
+    .h{
+        word-wrap: break-word;
+        overflow: hidden;
+        width: 100%;
+        
+        
+    }
+
+    #dtheme, #ltheme{
+        display: none;
+    }
+
+    .g{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .hh{
+        display: none;
+    }
+    
+}
+
+ @media screen and (max-width: 746px) {
+    .c{
+        height: 400px;
+    }
+
+    .j{
+        margin-top: 0px;
+        height: 500px;
+    }
+    .m, .j{
+        display: flex;
+        flex-direction: column;
+    }
+    .b{
+        font-size: 10px;
+    }      
+    
+    .a h1{
+        font-size: 20px;
+    }
+} 
+
+@media screen and (max-width: 500px){
+    .b nav a i{
+        display: none;
+    }
+    
 }
