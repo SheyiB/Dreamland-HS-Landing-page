@@ -5,12 +5,12 @@ function change(){
    
     if (n < num ){
 
-        document.querySelector('img').src= "media/image/"+img[n];
+        document.querySelector('img').src= "./media/image/"+img[n];
     }
 
     if (n == num){
         n=0;
-        document.querySelector('img').src= "media/image/"+img[n];
+        document.querySelector('img').src= "./media/image/"+img[n];
     }
 
     
